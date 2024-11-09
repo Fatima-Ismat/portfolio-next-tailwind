@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from 'react';
 import { FaLinkedinIn } from "react-icons/fa";
 import Link from 'next/link';
@@ -10,13 +11,12 @@ const Footer = () => {
   <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
       
-    {/* <img
-  src="{require('../../../public/i-logo.png')}"
+    <Image
+  src={require("../../../public/logo.png")}
   alt="Ismat Fatima"
-  width="{200}"
-  height="{200}"
-  className="w-[50px]"
-/> */}
+  width={100}
+  height={100}
+  className="w-[50px]"/>
 
 
       <span className="ml-3 text-xl">Ismat Fatima</span>

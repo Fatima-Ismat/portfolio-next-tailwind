@@ -9,11 +9,11 @@ const Navbar = () => {
      <header className="text-gray-600 body-font">
   <div className ="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-     {/* <img 
-     src={require('../../../public/logo.png')} 
+     <Image 
+     src={require("../../../public/logo.png")} 
      alt="Ismat Fatima" 
      width={200} 
-     height={200} className="w-[50px]" /> */}
+     height={200} className="w-[50px]" />
       <span className ="ml-3 text-xl">Ismat Fatima Portfolio</span>
     </a>
     <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
@@ -23,9 +23,9 @@ const Navbar = () => {
       <Link href={"#project"}className="mr-5 hover:text-blue-600">Projects</Link>
       <Link href={"#Contact"}className="mr-5 hover:text-blue-600">Contact</Link>
     </nav>
-      <a href="/public/cv.pdf" download>
+      <a href="/public/cv.pdf">
     <button className ="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
-      Download cv
+      Download CV
       <AiOutlineCloudDownload className=""text-xl ml-2/>
     </button>
       </a>
