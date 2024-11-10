@@ -12,7 +12,7 @@ const Footer = () => {
     <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
       
     <Image
-  src={require("../../../public/logo.png")}
+  src="/logo.png"
   alt="Ismat Fatima"
   width={100}
   height={100}

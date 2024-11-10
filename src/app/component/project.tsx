@@ -18,8 +18,11 @@ const Project = () => {
               <div className="flex relative">
                 <Image
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/project1.jpg")}
+                  className="absolute inset-0  object-cover object-center"
+                  src="/project1.jpg"
+                  width={300}
+                  height={150}
+                  
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -33,10 +36,8 @@ const Project = () => {
                   </p>
                   <Link
                     target="_blank"
-                    href={
-                      "https://vercel.com/fatima-ismats-projects/modren-portfolio"
-                    }
-                  >
+                    href=
+                      "https://vercel.com/fatima-ismats-projects/modren-portfolio" passHref>
                     <p className="leading-relaxed text-blue-500 hover:underline">
                       View Project..
                     </p>
@@ -49,8 +50,10 @@ const Project = () => {
               <div className="flex relative">
                 <Image
                   alt="gallery"
-                     className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/milestone1.jpg")}
+                     className="absolute inset-0 object-cover object-center"
+                  src="/milestone1.jpg"
+                  width={300}
+                  height={200}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -64,10 +67,8 @@ const Project = () => {
                   </p>
                   <Link
                     target="_blank"
-                    href={
-                      "https://vercel.com/fatima-ismats-projects/new-hackathon-milestone-5"
-                    }
-                  >
+                    href=
+                      "https://vercel.com/fatima-ismats-projects/new-hackathon-milestone-5" passHref>
                     <p className="leading-relaxed text-blue-500 hover:underline">
                       View Project..
                     </p>
@@ -80,8 +81,10 @@ const Project = () => {
               <div className="flex relative">
                 <Image
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
-                  src={require("../../../public/project4.jpg")}
+                  className="absolute inset-0  object-cover object-center"
+                  src="/project4.jpg"
+                  width={400}
+                  height={400}
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-sm title-font font-medium text-blue-500 mb-1">
@@ -100,10 +103,8 @@ const Project = () => {
                   </p>
                   <Link
                     target="_blank"
-                    href={
-                      "https://vercel.com/fatima-ismats-projects/figma-portfolio-project"
-                    }
-                  >
+                    href=
+                      "https://vercel.com/fatima-ismats-projects/figma-portfolio-project" passHref>
                     <p className="leading-relaxed text-blue-500 hover:underline">
                       View Project..
                     </p>

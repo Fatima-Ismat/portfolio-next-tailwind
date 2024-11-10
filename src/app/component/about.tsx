@@ -10,7 +10,7 @@ const About = () => {
             <Image
               className="object-cover object-center rounded mx-auto w-[300px] h-[400px]"
               alt="hero"
-              src={require("../../../public/pic1.png")}
+              src="/pic1.png"
               width={300}
               height={500}
             />
@@ -26,7 +26,7 @@ const About = () => {
             I am a skilled Frontend Developer with a passion for creating visually appealing and user-friendly web applications. With a strong foundation in HTML, CSS, and JavaScript, I focus on building responsive, accessible, and high-performance interfaces. My goal is to craft seamless digital experiences that engage users and add value to each project.
             </p>
             <div className="flex justify-center">
-              <a href={"/public/cv.pdf"}>
+              <a href="/public/cv.pdf">
                 <button className="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
                   View CV
                 </button>
